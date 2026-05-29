@@ -1,0 +1,14 @@
+{
+  "name": "palladium-reporte",
+  "version": "1.0.0",
+  "description": "Generador de reporte mensual Palladium",
+  "main": "generate_report.js",
+  "scripts": {
+    "generar": "node generate_report.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "googleapis": "^144.0.0",
+    "puppeteer": "^22.0.0"
+  }
+}
